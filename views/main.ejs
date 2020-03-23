@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/bootstrap.min.css">
+    <link rel="stylesheet" href="styles/custom.css">
+    <script src="https://kit.fontawesome.com/f252d41b38.js" crossorigin="anonymous"></script>
+    <title>PLayer Test</title>
+</head>
+<body>
+    <div class="container">
+        <div class="jumbotron jumbotron-fluid">
+            <div class="container">
+              <h1 class="display-4">Sasha's Sleep Time</h1>
+              <p class="lead">Rain Sound Player</p>
+              <p>Status : <%= status %></p>
+            </div>
+        </div>
+        <form action="/" method="POST">
+            <div class="btn-group" role="group" aria-label="Basic example">
+                <button type="submit" class="btn btn-primary btn-lg" name="button" value="play"><i class="far fa-play-circle"></i></button>
+                <button type="submit" class="btn btn-info btn-lg" name="button" value="stop"><i class="far fa-stop-circle"></i></button>
+            </div>
+        </form>
+    </div>
+
+    
+</body>
+</html>
